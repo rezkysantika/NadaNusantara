@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:weightSum="6"
+    tools:context=".PaketEasy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:text="Pilih Paket"
+            android:fontFamily="@font/jo"
+            android:textColor="@color/black"
+            android:textSize="35sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="5"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/playA"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:cardElevation="15dp"
+                app:cardBackgroundColor="#f4705d" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="A"
+                    android:fontFamily="@font/jo"
+                    android:textColor="@color/white"
+                    android:textSize="55sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/playB"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:cardElevation="15dp"
+                app:cardBackgroundColor="#52c587" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="B"
+                    android:fontFamily="@font/jo"
+                    android:textColor="@color/white"
+                    android:textSize="55sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/playC"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:cardElevation="15dp"
+                app:cardBackgroundColor="#648ed0" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="C"
+                    android:fontFamily="@font/jo"
+                    android:textColor="@color/white"
+                    android:textSize="55sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/playD"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:cardElevation="15dp"
+                app:cardBackgroundColor="#dca657" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="D"
+                    android:fontFamily="@font/jo"
+                    android:textColor="@color/white"
+                    android:textSize="55sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

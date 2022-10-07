@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:weightSum="5"
+    android:background="@drawable/d2">
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/model_top"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/include3"
+            layout="@layout/model_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato"
+            android:text="Score: 0"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/b_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            app:elevation="8dp"
+            app:rippleColor="@color/colorPrimaryDark"
+            app:backgroundTint="@color/colorPrimary"
+            app:fabCustomSize="100dp"
+            app:maxImageSize="75dp"
+            app:srcCompat="@android:drawable/ic_media_play"/>
+
+    </FrameLayout>
+
+</LinearLayout>

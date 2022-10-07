@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#fef7ec"
+        app:rippleColor="#EEC490"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/score"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/jo"
+                android:layout_gravity="center"
+                android:text="Score = 0"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/soal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Apakah Judul Lagu Tersebut?"
+                android:textSize="30sp"
+                android:fontFamily="@font/jo"
+                android:textColor="@color/colorAccent"/>
+
+            <Button
+                android:id="@+id/opsi1"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button1"
+                android:padding="5dp"
+                android:textSize="17sp"
+                android:fontFamily="@font/jo"
+                android:text="A"/>
+
+            <Button
+                android:id="@+id/opsi2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button1"
+                android:layout_margin="5dp"
+                android:textSize="17sp"
+                android:padding="5dp"
+                android:fontFamily="@font/jo"
+                android:text="B"/>
+
+            <Button
+                android:id="@+id/opsi3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button1"
+                android:layout_margin="5dp"
+                android:textSize="17sp"
+                android:padding="5dp"
+                android:fontFamily="@font/jo"
+                android:text="C"/>
+
+            <Button
+                android:id="@+id/opsi4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button1"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="17sp"
+                android:fontFamily="@font/jo"
+                android:text="D"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

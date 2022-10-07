@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".Tutorial">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Cara Bermain"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/jo"/>
+
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/tutorial1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lato"/>
+
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:src="@drawable/prop1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/lato"
+                android:gravity="center"
+                android:text="@string/tutorial2"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:src="@drawable/prop2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/tutorial"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lato"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/tutorial3"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lato"/>
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tapped"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/tutorial5"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lato"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp"
+                android:text="@string/tutorial4"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lato"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
